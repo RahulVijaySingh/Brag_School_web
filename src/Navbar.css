@@ -1,0 +1,65 @@
+
+.nav-box{
+    background-color: rgb(197, 242, 253) !important;
+    width: "block";
+    height: "80vh";
+}
+
+
+#login{
+    /* color: blue; */
+    position: absolute ;
+    top:10px ;
+    left: 80% ;
+
+}
+
+
+#job{
+
+    
+    position: absolute ;
+    top:10px ;
+    left: 85%;
+
+}
+
+#job a{
+    text-decoration: none;
+    color: white;
+}
+
+.search-box{
+    display: grid;
+    position: absolute;
+    margin: auto;
+    width: 60%;
+    height: 60px;
+    left: 20%;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: white ;
+   
+    align-items: center;
+    
+    overflow: hidden;
+    grid-template-columns: auto;
+    gap: 1px;
+}
+
+div.top-box>h1{
+    position: absolute;
+    top: 37%;
+    left: 30%; 
+   
+} 
+
+
+small{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    align-items: center;
+    margin: auto;
+}
